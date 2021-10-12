@@ -1,0 +1,68 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  padding-top: 88px;
+}
+
+.navbar-brand { flex-basis: 150px; }
+
+.navbar-collapse { flex-grow: 0 !important; }
+
+.fsize-12 { font-size: 12px; }
+
+.secondary-nav { font-size: 20px; }
+
+.top-bar {
+  left: 0;
+  top: 62px;
+  z-index: 1029;
+}
+
+.bg-black { background-color: black; }
+
+.primary-slider .carousel-indicators {
+  top: 0;
+  bottom: auto;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.primary-slider .carousel-indicators li {
+  background-color: rgb(182, 161, 161);
+}
+
+.primary-slider .carousel-indicators li.active { background-color: black; }
+
+.primary-slider .carousel-caption {
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.primary-slider .carousel-caption h2 { font-size: 45px; }
+
+.best-sellers .card h2,
+.modal-body p,
+#accordion .card-body p,
+#accordion .card .btn { font-size: 14px; }
+
+.icon-btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.icon-btn:focus { outline: none; }
+
+.faq-cont {
+  background: linear-gradient(rgba(236, 236, 236, 0.8),
+              rgba(236, 236, 236, 0.8)), url('../img/andrea3.jpg') center/cover no-repeat;
+}
+  /* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #29B51F; }
+.My-Color-Theme-2-hex { color: #51FF45; }
+.My-Color-Theme-3-hex { color: #39FF2B; }
+.My-Color-Theme-4-hex { color: #B33E84; }
+.My-Color-Theme-5-hex { color: #FCD2EB; }
+

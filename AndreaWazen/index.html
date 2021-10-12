@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wazen</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <!-- Local CSS -->
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+        <link rel="stylesheet" href="./css/assets/bootstrap.min.css" />
+
+        <!-- custom font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container justify-content-end justify-content-lg-between">
+                <a class="navbar-brand mr-auto mr-lg-0" href="#">
+                    <img src="./img/logoo.png" alt="" class="d-block w-100" />
+                </a>
+                <button class="navbar-toggler order-1 ml-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-2 order-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-uppercase fsize-12">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Lookbook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav secondary-nav flex-row">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fas fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- !! -->
+        <!-- top bar -->
+        <div class="container-fluid position-fixed bg-black top-bar w-100 py-1">
+            <div class="row">
+                <div class="col-10 offset-1 d-flex justify-content-center justify-content-lg-between align-items-center text-uppercase text-white fsize-12 text-center">
+                    <p class="mb-0 d-none d-lg-block">shop deals of the week - <strong>up to 70% off</strong></p>
+                    <p class="mb-0"><strong>free worldwide shipping</strong> <span class="d-none d-md-inline">on all orders above 100$</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- !! -->
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade primary-slider">
+            <ol class="carousel-indicators mx-0 mt-3">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active border-0 mr-2"></li>
+                <li data-target="#carouselExampleIndicators" class="border-0" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/andrea.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-lg-block text-left">
+                        <h2 class="text-dark">High quality handmade shoes, <br> designed and produced in Beirut.</h2>
+                        <a href="#" class="btn btn-dark">Shop now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/andrea2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-lg-block text-left">
+                        <h2 class="text-dark">Urban Women's <br> shoes Collection</h2>
+                        <a href="#" class="btn btn-dark">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- !! -->
+        <!-- cards -->
+        <div class="container-fluid best-sellers">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="row py-5">
+                        <div class="col text-center text-uppercase">
+                            <h2 class="h3 font-weight-bold">Best sellers</h2>
+                        </div>
+                    </div>
+                    <div class="row pb-5">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                            <div class="card text-dark text-decoration-none h-100">
+                                <img src="./img/denver.jpg" alt="" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h2 class="text-uppercase font-weight-bold">DENVER TABARIS</h2>
+                                    <p class="price mb-1">$120.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="card-footer text-right d-flex flex-wrap align-items-center">
+                                    <button class="text-dark icon-btn mr-auto fsize-12" data-toggle="modal" data-target="#modal-one">
+                                        quick view
+                                    </button>
+                                    <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                                    <a href="#" class="text-dark mr-3"><i class="fas fa-share-alt"></i></a>
+                                    <button class="icon-btn text-dark">
+                                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                            <div class="card text-dark text-decoration-none h-100">
+                                <img src="./img/franca.jpg" alt="" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h2 class="text-uppercase font-weight-bold">FRANCA</h2>
+                                    <p class="price mb-1">$499.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-footer text-right d-flex flex-wrap align-items-center">
+                                    <button class="text-dark icon-btn mr-auto fsize-12" data-toggle="modal" data-target="#modal-two">
+                                        quick view
+                                    </button>
+                                    <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                                    <a href="#" class="text-dark"><i class="fas fa-share-alt mr-3"></i></a>
+                                    <button class="icon-btn text-dark">
+                                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-0">
+                            <div class="card text-dark text-decoration-none h-100">
+                                <img src="./img/mandaloun.jpg" alt="" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h2 class="text-uppercase font-weight-bold">Mandaloun</h2>
+                                    <p class="price mb-1">$38.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="card-footer text-right d-flex flex-wrap align-items-center">
+                                    <button class="text-dark icon-btn mr-auto fsize-12" data-toggle="modal" data-target="#modal-three">
+                                        quick view
+                                    </button>
+                                    <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                                    <a href="#" class="text-dark mr-3"><i class="fas fa-share-alt"></i></a>
+                                    <button class="icon-btn text-dark">
+                                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card text-dark text-decoration-none h-100">
+                                <img src="./img/ines.jpg" alt="" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h2 class="text-uppercase font-weight-bold">Ines</h2>
+                                    <p class="price mb-1">$86.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-footer text-right d-flex flex-wrap align-items-center">
+                                    <button class="text-dark icon-btn mr-auto fsize-12" data-toggle="modal" data-target="#modal-four">
+                                        quick view
+                                    </button>
+                                    <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                                    <a href="#" class="text-dark"><i class="fas fa-share-alt mr-3"></i></a>
+                                    <button class="icon-btn text-dark">
+                                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- !! -->
+        <!-- faq -->
+        <div class="container-fluid py-5 faq-cont">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <h2 class="h3 text-uppercase text-center font-weight-bold mb-5">Frequently Asked Questions</h2>
+                    <div id="accordion" class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="card mb-2">
+                                <div class="card-header p-0" id="headingOne">
+                                    <button class="btn btn-link text-dark d-block w-100 py-3 text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, harum?</button>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="card mb-2">
+                                <div class="card-header p-0" id="headingTwo">
+                                    <button class="btn btn-link text-dark d-block w-100 py-3 text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Lorem, ipsum dolor sit amet?</button>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="card mb-2">
+                                <div class="card-header p-0" id="headingThree">
+                                    <button class="btn btn-link text-dark d-block w-100 py-3 text-left" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Lorem, ipsum dolor sit amet consectetur adipisicing?</button>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="card mb-2">
+                                <div class="card-header p-0" id="headingFour">
+                                    <button class="btn btn-link text-dark d-block w-100 py-3 text-left" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, harum lorem ipusm?</button>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- !! -->
+
+        <!-- modals -->
+        <div class="modal fade" id="modal-one" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                        <h5 class="modal-title" id="exampleModalLabel">Fairfax Round</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-5 col-md-4">
+                                <img src="./img/denver.jpg" alt="" class="img-fluid">
+                                <div class="text-center mt-2">
+                                    <p class="mb-0">$120.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 col-md-8">
+                                <p class="mb-0 fsize-12">Make way for our DENVER TABARIS, remake of our favorite style! The style features a pointy toe mesh embroidery that sets on a high level heel. The mesh embroidery is inspired by the windows of the Sursock palace in Beirut. Style them with cropped flared pants, or a dress.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                        <a href="#" class="text-dark mr-3"><i class="fas fa-share-alt"></i></a>
+                        <button class="icon-btn text-dark">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-two" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                        <h5 class="modal-title" id="exampleModalLabel">Beebay Full Length Denim</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-5 col-md-4">
+                                <img src="./img/franca.jpg" alt="" class="img-fluid">
+                                <div class="text-center mt-2">
+                                    <p class="mb-0">$499.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 col-md-8">
+                                <p class="mb-0 fsize-12">Being part of our “Sunset Collection”, we are happy to introduce our famous FRANCA MID tulle style in new vibrant colors! The style features pleated tulle, a glitter mesh surfance and an anklet strap to give your look a special colorful touch.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                        <a href="#" class="text-dark mr-3"><i class="fas fa-share-alt"></i></a>
+                        <button class="icon-btn text-dark">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-three" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                        <h5 class="modal-title" id="exampleModalLabel">MANDALOUN</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-5 col-md-4">
+                                <img src="./img/mandaloun.jpg" alt="" class="img-fluid">
+                                <div class="text-center mt-2">
+                                    <p class="mb-0">$38.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 col-md-8">
+                                <p class="mb-0 fsize-12">Make way for our MANDALOUN style! The style features 3 straps that start at the same level and meet at several points when wrapped up gracefully around the foot.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                        <a href="#" class="text-dark mr-3"><i class="fas fa-share-alt"></i></a>
+                        <button class="icon-btn text-dark">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-four" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                        <h5 class="modal-title" id="exampleModalLabel">Baume and Mercier Clifton</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-5 col-md-4">
+                                <img src="./img/ines.jpg" alt="" class="img-fluid">
+                                <div class="text-center mt-2">
+                                    <p class="mb-0">$86.00</p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 col-md-8">
+                                <p class="mb-0 fsize-12">Our pointed sling back black mesh INES pump stands out in it’s discrete lingerie-like. Lined with black leather, the adjustable strap gracefully wraps around the ankle.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="icon-btn text-dark mr-3"><i class="far fa-heart"></i></button>
+                        <a href="#" class="text-dark mr-3"><i class="fas fa-share-alt"></i></a>
+                        <button class="icon-btn text-dark">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+        <!-- Latest Font-Awesome CDN -->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <!-- jQuery library -->
+        <script src="./js/jquery-3.5.1.min.js"></script>
+
+        <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
+</html>
