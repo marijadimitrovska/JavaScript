@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercise II</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <style type="text/css">
+            .navbar {
+                background-color: orange;
+            }
+
+            .navbar a {
+                color: white;
+            }
+
+            .bordered {
+                border: 1px solid grey;
+                background-color: white;
+                padding: 50px 70px 50px 30px;
+                margin-bottom: 70px;
+            }
+
+            .bordered:hover {
+                background-color: orange;
+            }
+
+            .bordered img {
+                width: 70px;
+                filter: invert(56%) sepia(42%) saturate(5504%) hue-rotate(360deg) brightness(101%) contrast(106%);
+            }
+
+            .bordered:hover img {
+                filter: invert(100%) sepia(0%) saturate(7480%) hue-rotate(7deg) brightness(113%) contrast(96%);
+            }
+
+            .bordered h4 {
+                font-size: 24px;
+                font-weight: 900;
+            }
+
+            .bordered:hover h4,
+            .bordered:hover p {
+                color: white;
+            }
+
+            .bordered p {
+                font-size: 17px;
+                line-height: 24px;
+                margin-bottom: 0px;
+            }
+
+            .featuredd {
+                margin-bottom: 100px;
+            }
+
+            .featuredd .stars p {
+                display: inline-block;
+                padding-left: 15px;
+                font-size: 15px;
+            }
+
+            .featuredd .order {
+                height: 100%;
+                background-color: orange;
+                color: white;
+            }
+
+            h2 {
+                font-size: 55px;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+
+            .title {
+                color: orange;
+                font-size: 30px;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand">
+            <div class="container">
+                <a href="#" class="navbar-brand">Restaurant</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row specialities">
+                <div class="col-12">
+                    <h2>Our Specialities</h2>
+                    <div class="row">
+                        <!-- specialties card skelet, remove it when you do it with js -->
+                        <!-- <div class="col-4">
+                            <div class="bordered">
+                                <img src="./img/1.svg" class="mb-3" />
+                                <h4>title</h4>
+                                <p>description</p>
+                            </div>
+                        </div> -->
+                        <!-- !! -->
+                    </div>
+                </div>
+            </div>
+            <div class="row featured-food">
+                <div class="col-12">
+                    <h2>Our Featured Food</h2>
+                </div>
+                <div class="row">
+                    <!-- featured card skelet, remove it when you do it with js -->
+                    <!-- <div class="col-3">
+                        <div class="row featuredd">
+                            <div class="col-12">
+                                <img class="img-fluid" src="./img/01.jpg" />
+                                <div class="row mt-3 align-items-start">
+                                    <div class="col-8">
+                                        <h4>title</h4>
+                                        <div class="stars">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <p>5</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn btn-block order"><</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- !! -->
+                </div>
+            </div>
+            <div class="row menu">
+                <div class="col-12">
+                    <h2>Our Food Menu</h2>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-4 breakfast">
+                            <h3 class="title">Breakfast menu</h3>
+                            <!-- breakfast, lunch, dinner card skelet, remove it when you do it with js -->
+                            <!-- <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h3>title</h3>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <h3>price</h3>
+                                        </div>
+                                    </div>
+                                    <p>description</p>
+                                </div>
+                            </div> -->
+                            <!-- !! -->
+                        </div>
+                        <div class="col-4 lunch">
+                            <h3 class="title">Lunch menu</h3>
+                        </div>
+                        <div class="col-4 dinner">
+                            <h3 class="title">Dinner menu</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+        <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            // Exercise II:
+            // There is a html starter file with a setup created for you.
+            // -In the html file you will find the skeletons for each of the cards you are supposed to make.
+
+            // A.Start by creating the first Class called SpecialitiesCard which should take 3 parameters: img, title, desc.
+            // -Instantiate 3 objects based on the SpecialitiesCard Class and fill them with the info from the screenshot.
+            // -Iterate  through  all  of  the  SpecialitiesCard  objects  and  for  each  iteration create a card in html with the given skeleton and append all of them to the div with a class .specialities
+
+            // B.Then inherit the SpecialitiesCard into a new Class called FeaturedCard which should have 2 extra properties for: stars & icon.
+            // -Instantiate 4 objects based on the FeaturedCard Class and fill them with the info from the screenshot.
+            // -Iterate through all of the FeaturedCard objects and for each iteration create a card in html with the given skeleton and append all of them to the div with a class .featured-food
+
+            // C.Then  inherit  the  SpecialitiesCard  into  a  new  Class  called  FoodCard  which doesn’t  have  an  image,  but  has  properties  for:  title,  desc  (which  will  be inherited) and a new property for price.
+            // -Instantiate objects based on the FoodCard Class: 4 breakfast cards, 4 lunch cards and 4 dinner cards and fill them with the info from the screenshot.
+            // -Iterate through each set of cards and for each iteration create a card in html with the given skeleton and append all of them to the divs with appropriate class .breakfast/.lunch/.dinner.
+            // -Make a function which will optimize your code for the FoodCard objects html renditions. Use that function 3 times to print the breakfast, lunch and dinner cards with 3 lines of code.
+
+            // <div class="col-4">
+            //     <div class="bordered">
+            //         <img src="./img/1.svg" class="mb-3" />
+            //         <h4>title</h4>
+            //         <p>description</p>
+            //     </div>
+            // </div>
+
+            const initializeObj = (fromClass, ...rest) => new fromClass(...rest);
+
+            // initializeSection(SpecialitiesCard, "./img/1.svg", "Healthy Salads", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus.");
+
+            class SpecialitiesCard {
+                constructor(img, title, desc) {
+                    this.img = img;
+                    this.title = title;
+                    this.desc = desc;
+                }
+            }
+
+            let specialtiesRow = document.querySelector(".specialities .row");
+
+            // let specialty1 = new SpecialitiesCard("./img/1.svg", "Healthy Salads", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus.");
+            // let specialty2 = new SpecialitiesCard("./img/2.svg", "Italian Pizza", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus.");
+            // let specialty3 = new SpecialitiesCard("./img/3.svg", "Groumet Burgers", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus.");
+
+            // let speacialtiesArr = [specialty1, specialty2, specialty3];
+
+            // speacialtiesArr.forEach(card => {
+            //     specialtiesRow.innerHTML += `
+            //     <div class="col-4">
+            //         <div class="bordered">
+            //             <img src=${card.img} class="mb-3" />
+            //             <h4>${card.title}</h4>
+            //             <p>${card.desc}</p>
+            //         </div>
+            //     </div>`;
+            // });
+
+            let specialtiesData = [initializeObj(SpecialitiesCard, "./img/1.svg", "Healthy Salads", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus."), initializeObj(SpecialitiesCard, "./img/2.svg", "Italian Pizza", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus."), initializeObj(SpecialitiesCard, "./img/3.svg", "Groumet Burgers", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempore similique odio ad? Adipisci harum doloribus quidem, sit libero accusamus.")];
+
+            specialtiesData.forEach(card => {
+                specialtiesRow.innerHTML += `
+                <div class="col-4">
+                    <div class="bordered">
+                        <img src=${card.img} class="mb-3" />
+                        <h4>${card.title}</h4>
+                        <p>${card.desc}</p>
+                    </div>
+                </div>`;
+            });
+
+            class FeaturedCard extends SpecialitiesCard {
+                constructor(img, title, stars, icon) {
+                    super(img, title);
+                    this.stars = stars;
+                    this.icon = icon;
+                }
+            }
+
+            let featuredRow = document.querySelector(".featured-food .row");
+
+            // let featured1 = new FeaturedCard("./img/01.jpg", "Angela\"s Burger", 2, "<");
+            // let featured2 = new FeaturedCard("./img/02.jpg", "Fluffy Green Salad", 4, "+");
+            // let featured3 = new FeaturedCard("./img/03.jpg", "Salty Salmon", 5, "-");
+            // let featured4 = new FeaturedCard("./img/04.jpg", "Best Brownies", 4, ">");
+
+            // let featuredArr = [featured1, featured2, featured3, featured4];
+
+            let featuredArr = [initializeObj(FeaturedCard, "./img/01.jpg", "Angela\"s Burger", 2, "<"), initializeObj(FeaturedCard, "./img/02.jpg", "Fluffy Green Salad", 4, "+"), initializeObj(FeaturedCard, "./img/03.jpg", "Salty Salmon", 5, "-"), initializeObj(FeaturedCard, "./img/04.jpg", "Best Brownies", 4, ">")];
+
+            featuredArr.forEach(card => {
+                let icons = [];
+
+                for (let i = 0; i < card.stars; i++) {
+                    icons.push('<i class="fa fa-star" aria-hidden="true"></i>')
+                }
+
+                featuredRow.innerHTML += `
+                    <div class="col-3">
+                        <div class="row featuredd">
+                            <div class="col-12">
+                                <img class="img-fluid" src=${card.img} />
+                                <div class="row mt-3 align-items-start">
+                                    <div class="col-8">
+                                        <h4>${card.title}</h4>
+                                        <div class="stars">
+                                            ${icons.join("")}
+                                            <p>${card.stars}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn btn-block order">${card.icon}</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`;
+            });
+
+            class FoodCard extends SpecialitiesCard {
+                constructor(title, desc, price) {
+                    super(undefined, title, desc);
+                    this.price = price;
+                }
+            }
+
+            let breakfastCont = document.querySelector(".breakfast"),
+                lunchCont = document.querySelector(".lunch"),
+                dinnerCont = document.querySelector(".dinner");
+
+            // let breakfast1 = new FoodCard("breakfast1", "Lorem ipsum dolor sit amet.", "43$");
+            // let breakfast2 = new FoodCard("breakfast2", "Lorem ipsum dolor sit amet.", "34$");
+            // let breakfast3 = new FoodCard("breakfast3", "Lorem ipsum dolor sit amet.", "41$");
+            // let breakfast4 = new FoodCard("breakfast4", "Lorem ipsum dolor sit amet.", "32$");
+
+            // let breakfastArr = [breakfast1, breakfast2, breakfast3, breakfast4];
+
+            let breakfastArr = [initializeObj(FoodCard, "breakfast1", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "breakfast2", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "breakfast3", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "breakfast4", "Lorem ipsum dolor sit amet.", "43$")];
+
+            let lunchArr = [initializeObj(FoodCard, "lunch1", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "lunch2", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "lunch3", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "lunch4", "Lorem ipsum dolor sit amet.", "43$")];
+
+            let dinnerArr = [initializeObj(FoodCard, "dinner1", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "dinner2", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "dinner3", "Lorem ipsum dolor sit amet.", "43$"), initializeObj(FoodCard, "dinner4", "Lorem ipsum dolor sit amet.", "43$")];
+
+            // breakfastArr.forEach(card => {
+            //     breakfastCont.innerHTML += `
+            //     <div class="row">
+            //         <div class="col-12">
+            //             <div class="row">
+            //                 <div class="col-8">
+            //                     <h3>${card.title}</h3>
+            //                 </div>
+            //                 <div class="col-4 text-right">
+            //                     <h3>${card.price}</h3>
+            //                 </div>
+            //             </div>
+            //             <p>${card.desc}</p>
+            //         </div>
+            //     </div>
+            //     `;
+            // })
+
+            const renderCards = (htmlElement, arr) => {
+                arr.forEach(card => {
+                    htmlElement.innerHTML += `
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h3>${card.title}</h3>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <h3>${card.price}</h3>
+                                </div>
+                            </div>
+                            <p>${card.desc}</p>
+                        </div>
+                    </div>`;
+                });
+            }
+
+            renderCards(breakfastCont, breakfastArr);
+            renderCards(lunchCont, lunchArr);
+            renderCards(dinnerCont, dinnerArr);
+        </script>
+    </body>
+</html>
